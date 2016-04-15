@@ -1,0 +1,10 @@
+C:\Users\suraj.sahoo\Documents\Visual Studio 2013\Projects\DemoStart\DemoStart.Infrastructure\obj\Debug\DemoStart.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\suraj.sahoo\Documents\Visual Studio 2013\Projects\DemoStart\DemoStart.Infrastructure\bin\Debug\DemoStart.Infrastructure.dll.config
+C:\Users\suraj.sahoo\Documents\Visual Studio 2013\Projects\DemoStart\DemoStart.Infrastructure\bin\Debug\DemoStart.Infrastructure.dll
+C:\Users\suraj.sahoo\Documents\Visual Studio 2013\Projects\DemoStart\DemoStart.Infrastructure\bin\Debug\DemoStart.Infrastructure.pdb
+C:\Users\suraj.sahoo\Documents\Visual Studio 2013\Projects\DemoStart\DemoStart.Infrastructure\bin\Debug\DemoStart.Core.dll
+C:\Users\suraj.sahoo\Documents\Visual Studio 2013\Projects\DemoStart\DemoStart.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\suraj.sahoo\Documents\Visual Studio 2013\Projects\DemoStart\DemoStart.Infrastructure\bin\Debug\DemoStart.Core.pdb
+C:\Users\suraj.sahoo\Documents\Visual Studio 2013\Projects\DemoStart\DemoStart.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\suraj.sahoo\Documents\Visual Studio 2013\Projects\DemoStart\DemoStart.Infrastructure\obj\Debug\DemoStart.Infrastructure.dll
+C:\Users\suraj.sahoo\Documents\Visual Studio 2013\Projects\DemoStart\DemoStart.Infrastructure\obj\Debug\DemoStart.Infrastructure.pdb

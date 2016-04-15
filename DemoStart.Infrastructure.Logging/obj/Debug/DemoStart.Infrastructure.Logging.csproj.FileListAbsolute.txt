@@ -1,0 +1,9 @@
+C:\Users\suraj.sahoo\Documents\Visual Studio 2013\Projects\DemoStart\DemoStart.Infrastructure.Logging\obj\Debug\DemoStart.Infrastructure.Logging.csprojResolveAssemblyReference.cache
+C:\Users\suraj.sahoo\Documents\Visual Studio 2013\Projects\DemoStart\DemoStart.Infrastructure.Logging\bin\Debug\DemoStart.Infrastructure.Logging.dll
+C:\Users\suraj.sahoo\Documents\Visual Studio 2013\Projects\DemoStart\DemoStart.Infrastructure.Logging\bin\Debug\DemoStart.Infrastructure.Logging.pdb
+C:\Users\suraj.sahoo\Documents\Visual Studio 2013\Projects\DemoStart\DemoStart.Infrastructure.Logging\bin\Debug\DemoStart.Core.dll
+C:\Users\suraj.sahoo\Documents\Visual Studio 2013\Projects\DemoStart\DemoStart.Infrastructure.Logging\bin\Debug\NLog.dll
+C:\Users\suraj.sahoo\Documents\Visual Studio 2013\Projects\DemoStart\DemoStart.Infrastructure.Logging\bin\Debug\DemoStart.Core.pdb
+C:\Users\suraj.sahoo\Documents\Visual Studio 2013\Projects\DemoStart\DemoStart.Infrastructure.Logging\bin\Debug\NLog.xml
+C:\Users\suraj.sahoo\Documents\Visual Studio 2013\Projects\DemoStart\DemoStart.Infrastructure.Logging\obj\Debug\DemoStart.Infrastructure.Logging.dll
+C:\Users\suraj.sahoo\Documents\Visual Studio 2013\Projects\DemoStart\DemoStart.Infrastructure.Logging\obj\Debug\DemoStart.Infrastructure.Logging.pdb

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CustomerModelStoreContainer" CdmEntityContainer="CustomerEntities">
+    <EntitySetMapping Name="Cars_BMW">
+      <EntityTypeMapping TypeName="CustomerModel.Cars_BMW">
+        <MappingFragment StoreEntitySet="Cars_BMW">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Car_Name" ColumnName="Car_Name" />
+          <ScalarProperty Name="Engine_No" ColumnName="Engine_No" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customer_BMW">
+      <EntityTypeMapping TypeName="CustomerModel.Customer_BMW">
+        <MappingFragment StoreEntitySet="Customer_BMW">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Cust_Name" ColumnName="Cust_Name" />
+          <ScalarProperty Name="Cust_Email" ColumnName="Cust_Email" />
+          <ScalarProperty Name="Car_ID" ColumnName="Car_ID" />
+          <ScalarProperty Name="AGE" ColumnName="AGE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbldemoes">
+      <EntityTypeMapping TypeName="CustomerModel.tbldemo">
+        <MappingFragment StoreEntitySet="tbldemo">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbldemo2">
+      <EntityTypeMapping TypeName="CustomerModel.tbldemo2">
+        <MappingFragment StoreEntitySet="tbldemo2">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NLog_Error">
+      <EntityTypeMapping TypeName="CustomerModel.NLog_Error">
+        <MappingFragment StoreEntitySet="NLog_Error">
+          <ScalarProperty Name="allxml" ColumnName="allxml" />
+          <ScalarProperty Name="stacktrace" ColumnName="stacktrace" />
+          <ScalarProperty Name="logger" ColumnName="logger" />
+          <ScalarProperty Name="level" ColumnName="level" />
+          <ScalarProperty Name="message" ColumnName="message" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="host" ColumnName="host" />
+          <ScalarProperty Name="time_stamp" ColumnName="time_stamp" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

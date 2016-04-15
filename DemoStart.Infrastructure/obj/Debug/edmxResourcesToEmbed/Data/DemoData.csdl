@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CustomerModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Cars_BMW">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Car_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Engine_No" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Customer_BMW" Relationship="Self.Customer_BMW_Car_ID_FK" FromRole="Cars_BMW" ToRole="Customer_BMW" />
+  </EntityType>
+  <EntityType Name="Customer_BMW">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Cust_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Cust_Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Car_ID" Type="Int32" />
+    <Property Name="AGE" Type="Int32" />
+    <NavigationProperty Name="Cars_BMW" Relationship="Self.Customer_BMW_Car_ID_FK" FromRole="Customer_BMW" ToRole="Cars_BMW" />
+  </EntityType>
+  <EntityType Name="tbldemo">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbldemo2">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="Customer_BMW_Car_ID_FK">
+    <End Role="Cars_BMW" Type="Self.Cars_BMW" Multiplicity="0..1" />
+    <End Role="Customer_BMW" Type="Self.Customer_BMW" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cars_BMW">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Customer_BMW">
+        <PropertyRef Name="Car_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CustomerEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Cars_BMW" EntityType="Self.Cars_BMW" />
+    <EntitySet Name="Customer_BMW" EntityType="Self.Customer_BMW" />
+    <EntitySet Name="tbldemoes" EntityType="Self.tbldemo" />
+    <EntitySet Name="tbldemo2" EntityType="Self.tbldemo2" />
+    <AssociationSet Name="Customer_BMW_Car_ID_FK" Association="Self.Customer_BMW_Car_ID_FK">
+      <End Role="Cars_BMW" EntitySet="Cars_BMW" />
+      <End Role="Customer_BMW" EntitySet="Customer_BMW" />
+    </AssociationSet>
+    <EntitySet Name="NLog_Error" EntityType="CustomerModel.NLog_Error" />
+  </EntityContainer>
+  <EntityType Name="NLog_Error">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="time_stamp" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="host" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="type" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="message" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="level" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="logger" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="stacktrace" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="allxml" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

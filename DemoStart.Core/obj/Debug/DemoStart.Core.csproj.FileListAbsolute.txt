@@ -1,0 +1,5 @@
+C:\Users\suraj.sahoo\Documents\Visual Studio 2013\Projects\DemoStart\DemoStart.Core\bin\Debug\DemoStart.Core.dll
+C:\Users\suraj.sahoo\Documents\Visual Studio 2013\Projects\DemoStart\DemoStart.Core\bin\Debug\DemoStart.Core.pdb
+C:\Users\suraj.sahoo\Documents\Visual Studio 2013\Projects\DemoStart\DemoStart.Core\obj\Debug\DemoStart.Core.csprojResolveAssemblyReference.cache
+C:\Users\suraj.sahoo\Documents\Visual Studio 2013\Projects\DemoStart\DemoStart.Core\obj\Debug\DemoStart.Core.dll
+C:\Users\suraj.sahoo\Documents\Visual Studio 2013\Projects\DemoStart\DemoStart.Core\obj\Debug\DemoStart.Core.pdb
